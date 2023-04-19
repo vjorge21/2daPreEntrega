@@ -1,0 +1,222 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+  list-style: none;
+}
+body{font-family: 'Roboto', sans-serif;
+    
+}
+.beneficiarios{
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+
+}
+.botonesLog{
+   
+    display: flex;
+    justify-content:flex-end;
+    align-items: flex-end;
+    flex-wrap: wrap;
+
+    
+}
+.cerrarSesion{
+    background-color: rgb(93, 93, 93);
+   color: white;
+   display: inline-block;
+   margin-right: 0;
+}
+.contraseña{
+    background-color: rgb(93, 93, 93);
+    color: white;
+    display: inline-block;
+    margin-right: 0;
+}
+.backgroundNav{
+    background-color: rgb(0, 172, 193);
+    display:inline-block;
+    height: 15vh;
+    margin-right: 0;
+    margin-left: 90%;
+   text-align: center;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+
+}
+.estiloBotonNav{
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+   font-weight: 500;
+    
+
+}
+
+/* Estilos del home*/
+.cardCredenciales{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.contorno1{
+    padding: 50px;
+    width: 50%;
+    display:block
+
+}
+.contornoCard{
+    font-size: 1.8rem;
+    font-weight: 400;
+    background-color: rgb(0, 172, 193);
+   
+    
+}
+.contorno2{
+    padding: 50px;
+    width: 50%;
+    display: block;
+}
+.contenidoInterno{
+    font-size: 1rem;
+    font-kerning: auto;
+
+}
+.botonCredencial{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.credencial{
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: rgb(109, 62, 140);
+    color: white;
+}
+.credencialInactiva{
+    font-size: 1rem;
+    font-weight: 400;
+    background-color: rgb(196, 196, 196);
+}
+.boxMensajes{
+    display: flex;  
+    justify-content: flex-end;
+    align-items: stretch;
+}
+.mensajes{
+    font-size: 1.5rem; 
+    border: 2px;
+    border-color: rgb(93, 93, 93);
+    height: 30vh;
+    width: 30%;
+    margin-left: 70px;
+}
+.colorFooter{
+    background-color: rgb(0, 172, 193);
+    text-align: center; 
+    padding: 10px;
+}
+
+
+/*estilos de reintegros*/
+.reintegros{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.botonReintegros{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.subTitulo{
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 700;
+}
+.card{
+    padding: 50px;
+    width: 50%;
+    display: block;
+}
+.cabecera{
+    background-color: rgb(109, 62, 140);
+    font-size: 1rem;
+    font-weight: 500;
+    color: white;
+}
+/*estilos facturacion*/
+.facturas{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.botonFactura{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.pagarFactura{
+    background-color: rgb(0, 172, 193);
+    color: black;
+}
+.verFactura{
+    background-color: rgb(196, 196, 196);
+    color: black;
+}
+/*estilos autorizaciones*/
+.autorizaciones{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.botonAutorizacion{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+.cardAutorizaciones{
+    padding: 50px;
+    width: 50%;
+    display: block;
+}
+.headSoli{
+    text-align: left;
+    font-size: 1.4rem;
+    background-color: rgb(109, 62, 140);
+    color: rgb(255, 255, 255);
+}
+.descargar{
+    background-color: rgb(0, 172, 193);
+}
+.editar{
+    background-color: rgb(93, 93, 93);
+    color: white;
+}
+
+/*estilos Afiliaciones*/
+.grillaAfiliaciones{
+    border: 2px;
+    border-color: black;
+    text-align: center;
+    margin-top: 30px;
+    padding: 10px;
+    font-weight: 1rem;
+}
+.inputAfiliaciones{
+    background-color: rgba(228, 220, 220, 0.61);
+}
+.botonEnviar{
+    background-color: rgb(109, 62, 140);
+    color: white;
+}
+.botonBorrar{
+    background-color: rgba(196, 196, 196, 1);
+}

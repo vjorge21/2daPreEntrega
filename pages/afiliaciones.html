@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tramites on line OSPe</title>
+    <link href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="../css/estilos.css">
+    <script src="https://kit.fontawesome.com/96a323de3a.js" crossorigin="anonymous"></script>
+</head>
+<img src="../assets/img/logo.png" alt="logo ospe"> 
+    <div class="botonesLog">
+    <input type="button" value="Cerrar Sesion" class="cerrarSesion">
+    <input type="button" value="Cambiar Contraseña" class="contraseña">
+    </div>
+<body>
+<header>
+    <h1 class="beneficiarios"> BENEFICIARIOS</h1>
+    <nav class="backgroundNav">
+        <ul>
+            <li><a class="estiloBotonNav" href="../index.html" > Home</a></li>
+            <li><a class="estiloBotonNav" href="autorizaciones.html" > Autorizaciones</a></li>
+            <li><a class="estiloBotonNav" href="#" > Afiliaciones</a></li>
+            <li><a class="estiloBotonNav" href="facturacion.html" > Facturacion</a></li>
+            <li><a class="estiloBotonNav" href="reintegros.html" > Reintegros</a></li>
+    
+        </ul>
+    </nav>
+</header>
+    <main>
+        
+        <h2 class="subTitulo">Alta familiar</h2>
+        <fieldset class="grillaAfiliaciones">
+        <div>
+    
+            <label for="tipo">Tipo de familar</label>
+            <select name="familiar" id="fam">
+                <option value="hijo1">Hijo soltero menor de 21 años</option>
+                <option value="hijo2">Hijo soltero entre 21 y 25 años</option>
+                <option value="conyuge">Conyuge</option>
+                <option value="concubinato">Concubino/a</option>
+            </select>
+            
+        </div>
+        <div>
+            <label for="tipodni">Tipo de DNI</label>
+            <select name="DNI" id="dni">
+            <option value="dni">DNI</option>
+            <option value="sd">S/D</option>
+            </select>
+            <input id ="numeros" name="num" type="number" placeholder="Ingrese DNI" class="inputAfiliaciones">
+        </div>
+        <div> Nombre y Apellido<input id ="nombre" name="nombre" type="text" placeholder="Ingrese Nombre y Apellido" class="inputAfiliaciones"> </div>
+
+        <div> Domicilio<input id ="domicilio" name="domicilio" type="text" placeholder="Ingrese domicilio" class="inputAfiliaciones"> </div> 
+        <div> Altura<input id ="altura" name="altura" type="text" placeholder="altura" class="inputAfiliaciones"> </div> 
+        <div> Barrio<input id ="barrio" name="barrio" type="text" placeholder="Ingrese barrio" class="inputAfiliaciones"> </div> 
+        <div> CP <input id ="cp" name="cp" type="number" placeholder="Ingrese codigo postal" class="inputAfiliaciones"></div>
+        <br>
+            <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Observaciones" class="inputAfiliaciones"></textarea>
+            <br>
+        
+        <div>
+            
+                <input id="enviar" type="submit" value="Enviar informacion" class="botonEnviar">
+                <input id="reset" type="reset" value="Borrar" class="botonBorrar">
+            
+        </div>
+        </fieldset>
+        <br>
+        <br>
+    </main>
+    <br>
+    <br>
+    <footer>
+        <hr>
+        <div class="colorFooter">
+            ©OSPe- Obras Social de Petroleros 2015 - Todos los derechos reservados.
+            <br>
+            Casa Central: Av. Leandro N. Alem 692 (C1001AAO)
+            <br>
+            Ciudad Autónoma de Buenos Aires - 0800 444 OSPE (6773)
+            <br>
+            Superintendencia de Servicios de Salud - Órgano de Control de Obras Sociales y Entidades de Medicina Prepaga
+            <br>
+            0800-222-SALUD (72583)
+            <br>
+            www.argentina.gob.ar/sssalud - R.N.E.M.P. 620646 - R.N.O.S. 1-1530-0
+            <a href="https://www.instagram.com/ospesalud" target="_blank"></a> <i class="fa-brands fa-instagram"></i> </a>
+                 <a href="https://www.facebook.com/OSPeOficial/" target="_blank"> <i class="fa-brands fa-facebook"></i></a>
+    </div>
+    </footer>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
