@@ -17,7 +17,16 @@
 <body>
 <header>
     <h1 class="beneficiarios"> BENEFICIARIOS</h1>
-    <nav class="backgroundNav">
+    <div> 
+        <nav class="nav flex-column" style="background-color: rgba(0, 171, 193, 0.753); color: black;">
+            <a class="nav-link active" aria-current="page" href="#">Inicio</a>
+            <a class="nav-link" href="./pages/autorizaciones.html">Autorizaciones</a>
+            <a class="nav-link" href="./pages/afiliaciones.html">Afiliaciones</a>
+            <a class="nav-link" href="./pages/facturacion.html">Facuración</a>
+            <a class="nav-link" href="./pages/reintegros.html">Reintegros</a>
+        </nav>
+    </div>
+    <!--<nav class="backgroundNav">
         
             <ul >
             
@@ -28,70 +37,42 @@
         
             </ul>
         
-    </nav>
+    </nav>-->
 </header>
     <main>
-        <div class="card">
-            <h3 class="card-header">Titular</h3>
-            <div class="card-body">
-              <h4 class="card-title">APELLIDO y Nombre: JORGE, Ma. Virginia</h4>
-              <p class="card-text">Num afiliado: 27-12344989-2/00
-                <br>
-                Estado: activo 
-                <br>     
-                Plan: A400
-                <br>
-                Fecha de baja:</p>
-              <a href="#" class="btn btn-primary">Credencial</a>
+        <div class="cardsCredenciales">
+            <div class="card mb-3" style="max-width: 20rem;">
+                <div class="card-header">Titular</div>
+                <div class="card-body">
+                <h5 class="card-title">APELLIDO y Nombre: JORGE, Ma. Virginia</h5>
+                <p class="card-text">Num afiliado: 27-12344989-2/00
+                    <br>
+                    Estado: activo 
+                    <br>     
+                    Plan: A400
+                    <br>
+                    Fecha de baja:
+                    <br></p>
+                    <button type="button" class="btn btn-primary">Credencial</button>
+                </div>
             </div>
-          </div>
-
-
-        <!-- <div class="cardCredenciales">
-            <div class="contorno1"> 
-                
-                    <div class="contornoCard">Titular</div>
-
-                    <div class="contenidoInterno">  
-                        APELLIDO y Nombre: JORGE, Ma. Virginia
-                        <br> 
-                        Num afiliado: 27-12344989-2/00
-                        <br>
-                        Estado: activo 
-                        <br>     
-                        Plan: A400
-                        <br>
-                        Fecha de baja:
-                        <br>
-                        <div class="botonCredencial">
-                            <input type="button" value="Credencial" class="credencial">
-                        </div>
-                    </div>
-                
-            </div>   -->
-
-
-            <div class="contorno2"> 
-        
-                <div class="contornoCard">Grupo familiar</div>                   
-                    <div class="contenidoInterno"> 
-                        APELLIDO y Nombre:
-                        <br>
-                        Num afiliado:
-                        <br>
-                        Estado: activo  
-                        <br>
-                        Plan: A400
-                        <br>
-                        Fecha de baja:
-                        <br>
-                        <div class="botonCredencial">
-                            <input type="button" value="Credencial" class="credencialInactiva">
-                        </div>
-                    </div>
-                
-        
+    
+            <div class="card mb-3" style="max-width: 20rem;">
+                <div class="card-header">Grupo familiar</div>
+                <div class="card-body">
+                <h5 class="card-title">APELLIDO y Nombre: </h5>
+                <p class="card-text">Num afiliado: 
+                    <br>
+                    Estado:  
+                    <br>     
+                    Plan: 
+                    <br>
+                    Fecha de baja:
+                    <br></p>
+                    <button type="button" class="btn btn-secondary">Credencial</button>
+                </div>
             </div>
+        
         </div>
     <br>
     <br>
