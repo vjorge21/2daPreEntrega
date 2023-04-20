@@ -31,50 +31,87 @@
     <main>
         
         <h2 class="subTitulo">Alta familiar</h2>
-        <fieldset class="grillaAfiliaciones">
-        <div>
-    
-            <label for="tipo">Tipo de familar</label>
-            <select name="familiar" id="fam">
-                <option value="hijo1">Hijo soltero menor de 21 años</option>
-                <option value="hijo2">Hijo soltero entre 21 y 25 años</option>
-                <option value="conyuge">Conyuge</option>
-                <option value="concubinato">Concubino/a</option>
-            </select>
-            
-        </div>
-        <div>
-            <label for="tipodni">Tipo de DNI</label>
-            <select name="DNI" id="dni">
-            <option value="dni">DNI</option>
-            <option value="sd">S/D</option>
-            </select>
-            <input id ="numeros" name="num" type="number" placeholder="Ingrese DNI" class="inputAfiliaciones">
-        </div>
-        <div> Nombre y Apellido<input id ="nombre" name="nombre" type="text" placeholder="Ingrese Nombre y Apellido" class="inputAfiliaciones"> </div>
 
-        <div> Domicilio<input id ="domicilio" name="domicilio" type="text" placeholder="Ingrese domicilio" class="inputAfiliaciones"> </div> 
-        <div> Altura<input id ="altura" name="altura" type="text" placeholder="altura" class="inputAfiliaciones"> </div> 
-        <div> Barrio<input id ="barrio" name="barrio" type="text" placeholder="Ingrese barrio" class="inputAfiliaciones"> </div> 
-        <div> CP <input id ="cp" name="cp" type="number" placeholder="Ingrese codigo postal" class="inputAfiliaciones"></div>
-        <br>
-            <textarea name="comentario" id="comentario" cols="30" rows="10" placeholder="Observaciones" class="inputAfiliaciones"></textarea>
-            <br>
-        
-        <div>
+        <form class="row g-4 formAfiliaciones">
+            <div class="input-group mb-3">
+              <label class="input-group-text" for="inputGroupSelect01">Tipo de familiar</label>
+              <select class="form-select" id="inputGroupSelect01">
+                <option selected>Seleccionar...</option>
+                <option value="1">Hijo Soltero menor de 21 años</option>
+                <option value="2">Hijo soltero entre 21 y 25 años</option>
+                <option value="3">Conyuge</option>
+            <option value="4">Concubino</option>
+              </select>
+            </div>
+            <div class="col-md-4">
+                <label for="inputState" class="form-label">Tipo de documento</label>
+                <select id="inputState" class="form-select">
+                  <option selected>Elige...</option>
+                  <option>DNI</option>
+                    <option>S/D</option>
+                </select>
+              </div>
+              <div class="col-md-2">
+                <label for="inputDni" class="form-label">DNI</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+            <div class="input-group">
+              <span class="input-group-text">Apellido y nombre</span>
+              <input type="text" aria-label="Last name" class="form-control">
+              <input type="text" aria-label="Firt name" class="form-control">
+            </div>
             
-                <input id="enviar" type="submit" value="Enviar informacion" class="botonEnviar">
-                <input id="reset" type="reset" value="Borrar" class="botonBorrar">
-            
-        </div>
-        </fieldset>
+              <div class="col-12">
+                <label for="inputAddress" class="form-label">Domicilio de residencia</label>
+                <input type="text" class="form-control" id="inputAddress" placeholder="Indicar domicilio con altura">
+              </div>
+            <div class="col-sm- 12-md-6">
+                <label for="inputCity" class="form-label">Altura</label>
+                <input type="text" class="form-control" id="altura">
+            </div>
+            <div class="col-sm- 12-md-6">
+                <label for="inputCity" class="form-label">Departamento</label>
+                <input type="text" class="form-control" id="departamento">
+            </div>
+              <div class="col-12">
+                <label for="inputAddress2" class="form-label">Domicilio postal</label>
+                <input type="text" class="form-control" id="inputAddress2" placeholder="Indicar domicilio con altura">
+              </div>
+            <label for="inputCity" class="form-label">Altura</label>
+                <input type="text" class="form-control" id="altura">
+              </div>
+            <label for="inputCity" class="form-label">Departamento</label>
+                <input type="text" class="form-control" id="departamento">
+              </div>
+              <div class="col-md-6">
+                <label for="inputCity" class="form-label">Ciudad</label>
+                <input type="text" class="form-control" id="inputCity">
+              </div>
+              <div class="col-md-2">
+                <label for="inputZip" class="form-label">Código postal</label>
+                <input type="text" class="form-control" id="inputZip">
+              </div>
+             
+            <div class="input-group mb-3">
+              <input type="file" class="form-control" id="inputGroupFile02">
+              <label class="input-group-text" for="inputGroupFile02"></label>
+            </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="7" placeholder="Observaciones"></textarea>
+            </div>
+              <div class="col-12">
+                <button type="submit" class="btn btnAfiliaciones">Enviar información</button>
+              </div>
+        </form>
+      
         <br>
         <br>
     </main>
     <br>
     <br>
     <footer>
-        <hr>
+        
         <div class="colorFooter">
             ©OSPe- Obras Social de Petroleros 2015 - Todos los derechos reservados.
             <br>

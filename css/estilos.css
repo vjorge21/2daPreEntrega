@@ -9,7 +9,7 @@ body{font-family: 'Roboto', sans-serif;
     
 }
 .beneficiarios{
-    font-size: 3rem;
+    font-size: 2.5rem;
     font-weight: 900;
     text-align: center;
 
@@ -24,14 +24,14 @@ body{font-family: 'Roboto', sans-serif;
     
 }
 .cerrarSesion{
-    background-color: rgb(93, 93, 93);
-   color: white;
+    background-color: rgb(196, 196, 196);
+   color: rgb(93, 93, 93);
    display: inline-block;
    margin-right: 0;
 }
 .contraseña{
-    background-color: rgb(93, 93, 93);
-    color: white;
+    background-color: rgb(196, 196, 196);
+    color: rgb(93, 93, 93);
     display: inline-block;
     margin-right: 0;
 }
@@ -57,7 +57,7 @@ body{font-family: 'Roboto', sans-serif;
 }
 
 /* Estilos del home*/
-.cardCredenciales{
+.card{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -86,11 +86,11 @@ body{font-family: 'Roboto', sans-serif;
     font-kerning: auto;
 
 }
-.botonCredencial{
+/*.botonCredencial{
     display: flex;
     justify-content: flex-end;
     align-items: flex-end;
-}
+}*/
 .credencial{
     font-size: 1rem;
     font-weight: 400;
@@ -202,21 +202,16 @@ body{font-family: 'Roboto', sans-serif;
 }
 
 /*estilos Afiliaciones*/
-.grillaAfiliaciones{
-    border: 2px;
-    border-color: black;
-    text-align: center;
-    margin-top: 30px;
-    padding: 10px;
-    font-weight: 1rem;
+.formAfiliaciones{
+    display: block;
+    margin-left: 100px;
 }
-.inputAfiliaciones{
-    background-color: rgba(228, 220, 220, 0.61);
-}
-.botonEnviar{
+.btnAfiliaciones{
     background-color: rgb(109, 62, 140);
     color: white;
 }
-.botonBorrar{
-    background-color: rgba(196, 196, 196, 1);
+.form-label{
+    background-color: transparent;
+    border: 2px;
+    border-color: rgb(93, 93, 93);
 }
