@@ -35,17 +35,7 @@ body{font-family: 'Roboto', sans-serif;
     display: inline-block;
     margin-right: 0;
 }
-/*.backgroundNav{
-    background-color: rgb(0, 172, 193);
-    display:inline-block;
-    height: 15vh;
-    margin-right: 0;
-    margin-left: 90%;
-   text-align: center;
-   display: flex;
-   flex-direction: column;
-   align-items: center;
-}*/
+
 .nav{
     color: black;
     display: flex;
@@ -57,62 +47,19 @@ body{font-family: 'Roboto', sans-serif;
     text-decoration: none;
     color: black;
     margin-top: 10px;
-   font-weight: 500;*/
+   font-weight: 500;
 }
 
 /* Estilos del home*/
 .card-header{
     background-color: rgb(0, 172, 193);
     color: black;
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     font-weight: 400;
 }
 .card-text{
-    font-size: 0.8rem;
-    font-kerning: auto;
-}
-/*.cardCredenciales{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-.contorno1{
-    padding: 50px;
-    width: 50%;
-    display:block
-
-}
-.contornoCard{
-    font-size: 1.8rem;
-    font-weight: 400;
-    background-color: rgb(0, 172, 193);
-}*/
-.contorno2{
-    padding: 50px;
-    width: 50%;
-    display: block;
-}
-.contenidoInterno{
     font-size: 1rem;
     font-kerning: auto;
-
-}
-.botonCredencial{
-    display: flex;
-    justify-content: flex-end;
-    align-items: flex-end;
-}
-.credencial{
-    font-size: 1rem;
-    font-weight: 400;
-    background-color: rgb(109, 62, 140);
-    color: white;
-}
-.credencialInactiva{
-    font-size: 1rem;
-    font-weight: 400;
-    background-color: rgb(196, 196, 196);
 }
 .boxMensajes{
     display: flex;  
@@ -126,6 +73,7 @@ body{font-family: 'Roboto', sans-serif;
     height: 30vh;
     width: 30%;
     margin-left: 70px;
+    border-style: solid;
 }
 .colorFooter{
     background-color: rgb(0, 172, 193);
